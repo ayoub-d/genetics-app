@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {RandomGenerator} from './service/RandomGenerator'
+import WorldView from './component/WorldView'
 
 const App: React.FC = () => {
+  const worldSize = 10;
+  const random = new RandomGenerator();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WorldView worldSize={worldSize} random={random}/>
     </div>
   );
 }

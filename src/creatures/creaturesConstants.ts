@@ -1,0 +1,6 @@
+export const INITIAL_ENERGY_VALUE = 20.0
+export const DEFAULT_MUTATION_CHANCE = 5
+export const DEFAULT_REPLICATION_CHANCE = 5
+export const DEFAULT_ENERGY_SPENT_PER_MOVE = 1.0
+export const MAX_ENERGY = 50.0
+export const MAX_LIFE_TIME = 60

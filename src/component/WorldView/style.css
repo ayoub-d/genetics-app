@@ -1,0 +1,15 @@
+.row {
+ width: 100%;
+ display: inline-flex;
+ margin: 0;
+ padding: 0;
+}
+.world-container {
+    padding: 16px;
+}
+
+.move {
+    transform: translate(0,0);
+    z-index: 99;
+    transition: all 0.5s 0s;
+}

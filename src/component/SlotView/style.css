@@ -1,0 +1,40 @@
+.cell {
+    display: inline-block;
+    background-color: #A0A0A0;
+    width: 70px;
+    height: 70px;
+    border: 1px solid grey;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.centered {
+    position:absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+}
+
+.creature-label{
+    text-align: center;
+    top: 29%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.food {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.creature {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
